@@ -6,11 +6,6 @@ const authRoutes = require('./routes/authRoutes');
 const permitRoutes = require('./routes/permitRoutes');
 const userRoutes = require('./routes/userRoutes');
 
-// ✅ Debugging: Check what is being imported
-console.log('Auth Routes:', authRoutes);
-console.log('Permit Routes:', permitRoutes);
-console.log('User Routes:', userRoutes);
-
 // Use routes
 app.use('/api/auth', authRoutes);
 app.use('/api/permits', permitRoutes);

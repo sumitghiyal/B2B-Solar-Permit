@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Sample route
 router.get('/test', (req, res) => {
-  res.json({ message: 'Auth route working!' });
+  res.json({ message: 'Permit route working!' });
 });
 
 module.exports = router; 
